@@ -23,7 +23,7 @@ export default function Home() {
           <p className="link">Gmail</p>
           <p className="link">Images</p>
 
-          <Avatar url="Artboards_Diversity_Avatars_by_Netguru-05.png" />
+          <Avatar url="Avatar.png" />
         </div>
       </header>
 
