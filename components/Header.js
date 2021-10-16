@@ -4,6 +4,7 @@ import { useRef } from 'react';
 
 import { MicrophoneIcon, SearchIcon, XIcon } from '@heroicons/react/solid';
 import Avatar from "./Avatar";
+import HeaderOptions from "./HeaderOptions";
 
 function Header() {
     const router = useRouter();
@@ -37,6 +38,9 @@ function Header() {
                 </form>
                 <Avatar url="Avatar.png" className="ml-auto" />
             </div>
+
+            {/* Header Options  */}
+            <HeaderOptions />
         </header>
     );
 }
